@@ -6,7 +6,7 @@ public class TestaMetodo {
 
 	public static void main(String[] args) {
 
-		Conta conta1 = new Conta();
+		Conta conta1 = new Conta(1500, 05025);
 		conta1.deposita(50);
 		System.out.println(conta1.getSaldo());
 		
